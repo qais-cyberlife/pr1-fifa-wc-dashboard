@@ -1,0 +1,26 @@
+:root {
+    --yellow: #FDB813;
+    --purple: #6C2E90;
+    --darkblue: #0B3D91;
+    --lightblue: #48A0DC;
+    --white : #F5F5F5 ;
+  }
+
+
+main{
+   background-color: var(--yellow);
+   min-height: 100vh;
+}
+
+.h-screen{ 
+    min-height: 100vh;
+}
+
+  .latest-games {
+    background-color: var(--purple);
+    display: inline;
+  }
+  .news {
+    background-color: var(--lightblue);
+    display: inline;
+  }
