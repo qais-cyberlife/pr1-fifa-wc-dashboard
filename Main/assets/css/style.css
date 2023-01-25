@@ -1,26 +1,103 @@
 :root {
-    --yellow: #FDB813;
-    --purple: #6C2E90;
-    --darkblue: #0B3D91;
-    --lightblue: #48A0DC;
-    --white : #F5F5F5 ;
-  }
-
-
-main{
-   background-color: var(--yellow);
-   min-height: 100vh;
+  --yellow: #FDB813;
+  --purple: #6C2E90;
+  --darkblue: #0B3D91;
+  --lightblue: #48A0DC;
+  --white: #F5F5F5;
 }
 
-.h-screen{ 
-    min-height: 100vh;
+
+main {
+  background-color: var(--yellow);
+  min-height: 100vh;
 }
 
-  .latest-games {
-    background-color: var(--purple);
-    display: inline;
-  }
-  .news {
-    background-color: var(--lightblue);
-    display: inline;
-  }
+#highlights{
+  background-color: var(--yellow);
+  min-height: 45vh;
+}
+
+.h-screen {
+  min-height: 100vh;
+}
+
+.latest-games {
+  background-color: var(--purple);
+  display: inline-flex;
+  justify-content: center;
+}
+
+.news {
+  background-color: var(--lightblue);
+  display: inline;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.card {
+  flex: 0 0 50%;
+  width: 50%;
+  height: 200px;
+}
+
+/* Knockout Stages */
+.tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tree li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.tree a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.tree ul ul {
+  display: none;
+}
+
+.tree li:hover > ul {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+li > div.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+  height: 2rem;
+  margin: 0.5rem;
+}
