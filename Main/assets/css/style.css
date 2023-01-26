@@ -3,6 +3,7 @@
   --purple: #6C2E90;
   --darkblue: #0B3D91;
   --lightblue: #48A0DC;
+  --lightbluetrans: #48a1dc93;
   --white: #F5F5F5;
 }
 
@@ -30,6 +31,17 @@ main {
 .news {
   background-color: var(--lightblue);
   display: inline;
+  background-image: url('https://digitalhub.fifa.com/transform/b817ecc7-f044-45b8-8f67-a084a5d10e39/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022');
+  background-size: cover;
+  background-position: center;
+}
+
+.headline{
+  background-color: var(--lightbluetrans);
+}
+
+.subtitle{
+  font-size: small;
 }
 
 .carousel {
@@ -48,8 +60,9 @@ main {
 
 .card {
   flex: 0 0 50%;
-  width: 50%;
-  height: 200px;
+  width: 244px;
+  max-height: 122px;
+  margin: 1rem;
 }
 
 /* Knockout Stages */
@@ -100,4 +113,9 @@ li > div.card {
   width: 200px;
   height: 2rem;
   margin: 0.5rem;
+}
+
+.match-card-flag > img {
+  width: 24px;
+  height: 16.41px;
 }
