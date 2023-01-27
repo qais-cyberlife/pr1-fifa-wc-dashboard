@@ -1,6 +1,8 @@
 :root {
   --yellow: #FDB813;
+  --lightpurple: #7f1533;
   --purple: #6C2E90;
+  --darkpurple: #500f21;
   --darkblue: #0B3D91;
   --lightblue: #48A0DC;
   --lightbluetrans: #48a1dc93;
@@ -142,6 +144,31 @@ li > div.card {
 }
 
 .match-card-flag > img {
-  width: 24px;
-  height: 16.41px;
+  width: 2rem;
+  height: 2rem;
+border-radius: 50%;
+object-fit: cover;
+}
+
+
+/* Group Section */
+.group-heading{
+  background-color: var(--lightpurple);
+  margin: 0;
+  width: 100%;
+}
+
+.points-table {
+  box-shadow: 0 0 0.5rem 0.2rem var(--secondary);
+  border-radius: 0.5rem;
+margin: 2rem;
+}
+
+.group-heading{
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+thead{
+  background-color: var(--darkpurple);
+  color: var(--white);
 }
