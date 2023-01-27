@@ -15,7 +15,6 @@ main {
 
 #highlights{
   background-color: var(--yellow);
-  min-height: 45vh;
 }
 
 .h-screen {
@@ -51,11 +50,15 @@ main {
 
 .slide {
   flex: 0 0 auto;
-  width: 100%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
+}
+
+.slide > img{
+  scale: 0.25;
 }
 
 .card {
