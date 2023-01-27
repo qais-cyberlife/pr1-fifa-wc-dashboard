@@ -13,7 +13,7 @@ main {
   min-height: 100vh;
 }
 
-#highlights{
+.highlights{
   background-color: var(--yellow);
 }
 
@@ -24,9 +24,25 @@ main {
 .latest-games {
   background-color: var(--purple);
   display: inline-flex;
-  justify-content: center;
 }
 
+.match-card{
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.match-card-team{
+  width: 100%;
+  justify-content: space-between;
+
+
+}
+
+div.goals-score, 
+div.penalties-score {
+  margin-left: 1rem;
+  justify-content: end;
+}
 .news {
   background-color: var(--lightblue);
   display: inline;
@@ -43,12 +59,18 @@ main {
   font-size: small;
 }
 
+.highlights{
+  background-color: var(--yellow);
+  padding: 2rem;
+}
+
 .carousel {
   display: flex;
   overflow-x: scroll;
 }
 
 .slide {
+  margin: 1rem;
   flex: 0 0 auto;
   width: 25%;
   display: flex;
@@ -58,7 +80,8 @@ main {
 }
 
 .slide > img{
-  scale: 0.25;
+  width: 50vh;
+  border-radius: 1rem;
 }
 
 .card {
