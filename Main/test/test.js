@@ -1,15 +1,6 @@
 // football-data.org api key
 // var apiKey = '285395182cb047ac953fe9c44c44aa1b';
 
-// var groupA = $('#group-1');
-// var groupB = $('#group-2');
-// var groupC = $('#group-3');
-// var groupD = $('#group-4');
-// var groupE = $('#group-5');
-// var groupF = $('#group-6');
-// var groupG = $('#group-7');
-// var groupH = $('#group-8');
-
 function groupPoints() {
   var apiUrl = 'https://world-cup.codsfli.com/points.php';
 
@@ -43,14 +34,6 @@ function groupPoints() {
           group.append(teamRow);
         }
       }
-      // Sorts Teams
-      //  var teams = [  {    "position": 1,    "name": "Team A",    "mp": 3,    "w": 2,    "d": 1,    "l": 0,    "pts": 7  },  {    "position": 2,    "name": "Team B",    "mp": 3,    "w": 1,    "d": 2,    "l": 0,    "pts": 5  },  {    "position": 3,    "name": "Team C",    "mp": 3,    "w": 1,    "d": 1,    "l": 1,    "pts": 4  },  {    "position": 4,    "name": "Team D",    "mp": 3,    "w": 0,    "d": 0,    "l": 3,    "pts": 0  }]
-
-      //   // Sort the teams array by position in descending order
-      //   teams.sort(function (a, b) {
-      //     return a.position - b.position;
-      //   });
-      //   console.log(teams)
     })
     .catch(function (error) {
       console.error(error);
