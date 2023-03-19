@@ -1,0 +1,394 @@
+[
+    {
+        "group": "Group A",
+        "teams": [
+            {
+                "Team": "Qatar",
+                "flag": "https://world-cup.codsfli.com/flag/QAT.png",
+                "group": "Group A",
+                "points": 0,
+                "win": 0,
+                "draw": 0,
+                "loss": 3,
+                "match_play": 3,
+                "position": 4
+            },
+            {
+                "Team": "Senegal",
+                "flag": "https://world-cup.codsfli.com/flag/SEN.png",
+                "group": "Group A",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Netherlands",
+                "flag": "https://world-cup.codsfli.com/flag/NED.png",
+                "group": "Group A",
+                "points": 7,
+                "win": 2,
+                "draw": 1,
+                "loss": 0,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Ecuador",
+                "flag": "https://world-cup.codsfli.com/flag/ECU.png",
+                "group": "Group A",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            }
+        ]
+    },
+    {
+        "group": "Group B",
+        "teams": [
+            {
+                "Team": "England",
+                "flag": "https://world-cup.codsfli.com/flag/ENG.png",
+                "group": "Group B",
+                "points": 7,
+                "win": 2,
+                "draw": 1,
+                "loss": 0,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "USA",
+                "flag": "https://world-cup.codsfli.com/flag/USA.png",
+                "group": "Group B",
+                "points": 5,
+                "win": 1,
+                "draw": 2,
+                "loss": 0,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Wales",
+                "flag": "https://world-cup.codsfli.com/flag/WAL.png",
+                "group": "Group B",
+                "points": 1,
+                "win": 0,
+                "draw": 1,
+                "loss": 2,
+                "match_play": 3,
+                "position": 4
+            },
+            {
+                "Team": "Iran",
+                "flag": "https://world-cup.codsfli.com/flag/IRN.png",
+                "group": "Group B",
+                "points": 3,
+                "win": 1,
+                "draw": 0,
+                "loss": 2,
+                "match_play": 3,
+                "position": 3
+            }
+        ]
+    },
+    {
+        "group": "Group C",
+        "teams": [
+            {
+                "Team": "Argentina",
+                "flag": "https://world-cup.codsfli.com/flag/ARG.png",
+                "group": "Group C",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Mexico",
+                "flag": "https://world-cup.codsfli.com/flag/MEX.png",
+                "group": "Group C",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Poland",
+                "flag": "https://world-cup.codsfli.com/flag/POL.png",
+                "group": "Group C",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Saudi Arabia",
+                "flag": "https://world-cup.codsfli.com/flag/KSA.png",
+                "group": "Group C",
+                "points": 3,
+                "win": 1,
+                "draw": 0,
+                "loss": 2,
+                "match_play": 3,
+                "position": 4
+            }
+        ]
+    },
+    {
+        "group": "Group D",
+        "teams": [
+            {
+                "Team": "Denmark",
+                "flag": "https://world-cup.codsfli.com/flag/DEN.png",
+                "group": "Group D",
+                "points": 1,
+                "win": 0,
+                "draw": 1,
+                "loss": 2,
+                "match_play": 3,
+                "position": 4
+            },
+            {
+                "Team": "France",
+                "flag": "https://world-cup.codsfli.com/flag/FRA.png",
+                "group": "Group D",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Tunisia",
+                "flag": "https://world-cup.codsfli.com/flag/TUN.png",
+                "group": "Group D",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Australia",
+                "flag": "https://world-cup.codsfli.com/flag/AUS.png",
+                "group": "Group D",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            }
+        ]
+    },
+    {
+        "group": "Group E",
+        "teams": [
+            {
+                "Team": "Germany",
+                "flag": "https://world-cup.codsfli.com/flag/GER.png",
+                "group": "Group E",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Spain",
+                "flag": "https://world-cup.codsfli.com/flag/ESP.png",
+                "group": "Group E",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Japan",
+                "flag": "https://world-cup.codsfli.com/flag/JPN.png",
+                "group": "Group E",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Costa Rica",
+                "flag": "https://world-cup.codsfli.com/flag/CRC.png",
+                "group": "Group E",
+                "points": 3,
+                "win": 1,
+                "draw": 0,
+                "loss": 2,
+                "match_play": 3,
+                "position": 4
+            }
+        ]
+    },
+    {
+        "group": "Group F",
+        "teams": [
+            {
+                "Team": "Morocco",
+                "flag": "https://world-cup.codsfli.com/flag/MAR.png",
+                "group": "Group F",
+                "points": 7,
+                "win": 2,
+                "draw": 1,
+                "loss": 0,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Belgium",
+                "flag": "https://world-cup.codsfli.com/flag/BEL.png",
+                "group": "Group F",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Croatia",
+                "flag": "https://world-cup.codsfli.com/flag/CRO.png",
+                "group": "Group F",
+                "points": 5,
+                "win": 1,
+                "draw": 2,
+                "loss": 0,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Canada",
+                "flag": "https://world-cup.codsfli.com/flag/CAN.png",
+                "group": "Group F",
+                "points": 0,
+                "win": 0,
+                "draw": 0,
+                "loss": 3,
+                "match_play": 3,
+                "position": 4
+            }
+        ]
+    },
+    {
+        "group": "Group G",
+        "teams": [
+            {
+                "Team": "Switzerland",
+                "flag": "https://world-cup.codsfli.com/flag/SUI.png",
+                "group": "Group G",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Brazil",
+                "flag": "https://world-cup.codsfli.com/flag/BRA.png",
+                "group": "Group G",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Cameroon",
+                "flag": "https://world-cup.codsfli.com/flag/CMR.png",
+                "group": "Group G",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Serbia",
+                "flag": "https://world-cup.codsfli.com/flag/SRB.png",
+                "group": "Group G",
+                "points": 1,
+                "win": 0,
+                "draw": 1,
+                "loss": 2,
+                "match_play": 3,
+                "position": 4
+            }
+        ]
+    },
+    {
+        "group": "Group H",
+        "teams": [
+            {
+                "Team": "Uruguay",
+                "flag": "https://world-cup.codsfli.com/flag/URU.png",
+                "group": "Group H",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 3
+            },
+            {
+                "Team": "Portugal",
+                "flag": "https://world-cup.codsfli.com/flag/POR.png",
+                "group": "Group H",
+                "points": 6,
+                "win": 2,
+                "draw": 0,
+                "loss": 1,
+                "match_play": 3,
+                "position": 1
+            },
+            {
+                "Team": "Korea Republic",
+                "flag": "https://world-cup.codsfli.com/flag/KOR.png",
+                "group": "Group H",
+                "points": 4,
+                "win": 1,
+                "draw": 1,
+                "loss": 1,
+                "match_play": 3,
+                "position": 2
+            },
+            {
+                "Team": "Ghana",
+                "flag": "https://world-cup.codsfli.com/flag/GHA.png",
+                "group": "Group H",
+                "points": 3,
+                "win": 1,
+                "draw": 0,
+                "loss": 2,
+                "match_play": 3,
+                "position": 3
+            }
+        ]
+    }
+]
