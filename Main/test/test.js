@@ -24,8 +24,12 @@ function groupPoints() {
     .then(function (response) {
       console.log(response);
 
-      for (let j = 0; j < 9; j++) {
+      for (let j = 0; j < 8; j++) {
         var group = $("#group-" + j);
+        
+        var teams = response[j].teams.sort(function(a, b) {
+          return a.position - b.position;
+        });
         for (let i = 0; i < 4; i++) {
 
           var teamRow = $("<tr>");
